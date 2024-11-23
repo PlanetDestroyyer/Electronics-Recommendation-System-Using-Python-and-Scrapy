@@ -19,3 +19,10 @@ This project builds a recommendation system for electronics like mobile phones, 
    git clone https://github.com/PlanetDestroyyer/Electronics-Recommendation-System-Using-Python-and-Scrapy.git
    cd Electronics-Recommendation-System-Using-Python-and-Scrapy
    pip install -r requirements.txt
+
+2. **Run the Scrapy Spider**
+
+   Use Scrapy to scrape product data from Amazon:
+
+   ```bash
+   scrapy crawl electronics_spider
