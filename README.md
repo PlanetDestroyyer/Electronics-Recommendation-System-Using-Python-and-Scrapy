@@ -18,8 +18,8 @@ This project builds a recommendation system for electronics like mobile phones, 
    pip install -r requirements.txt
 
 2. Run the Scrapy Spider to scrape data: Use Scrapy to scrape product data from Amazon:
-
-scrapy crawl electronics_spider
+       ```bash
+    scrapy crawl electronics_spider
 
 
 3. Run the Streamlit app: Start the Streamlit app to use the user interface for browsing and getting product recommendations:
