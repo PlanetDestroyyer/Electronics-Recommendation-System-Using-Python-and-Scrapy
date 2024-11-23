@@ -8,38 +8,25 @@ This project builds a recommendation system for electronics like mobile phones, 
 - **Recommendation Engine**: Implements cosine similarity for recommendations.
 - **Interactive UI**: Built using Streamlit.
 
-## Installation
-1. Clone the repository:
+## Installation and Usage
+
+1. **Install the required dependencies**:
+   Clone the repository and navigate to the project directory, then install the dependencies listed in `requirements.txt`:
    ```bash
    git clone https://github.com/PlanetDestroyyer/Electronics-Recommendation-System-Using-Python-and-Scrapy.git
    cd Electronics-Recommendation-System-Using-Python-and-Scrapy
+   pip install -r requirements.txt
 
-2. Install the required dependencies:
-
-pip install -r requirements.txt
-
-
-
-Usage
-
-1. Scrape data using Scrapy:
+2. Run the Scrapy Spider to scrape data: Use Scrapy to scrape product data from Amazon:
 
 scrapy crawl electronics_spider
 
 
-2. Run the Streamlit app:
+3. Run the Streamlit app: Start the Streamlit app to use the user interface for browsing and getting product recommendations:
 
 streamlit run app.py
 
 
-3. Use the interface to browse and get product recommendations.
 
 
 
-Future Improvements
-
-Expand to support additional e-commerce platforms.
-
-Implement machine learning models for improved recommendations.
-
-Provide real-time scraping and recommendations.
