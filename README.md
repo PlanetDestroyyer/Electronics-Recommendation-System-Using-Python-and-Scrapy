@@ -26,3 +26,10 @@ This project builds a recommendation system for electronics like mobile phones, 
 
    ```bash
    scrapy crawl electronics_spider
+
+3. **Run the Streamlit app**
+
+   Start the Streamlit app to use the user interface for browsing and getting product recommendations:
+
+   ```bash
+   streamlit run app.py
